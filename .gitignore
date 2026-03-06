@@ -1,0 +1,91 @@
+# ---------------------------------------
+# OS / Editor / Miscellaneous
+# ---------------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional — uncomment if you want to ignore)
+#.vscode/
+
+# ---------------------------------------
+# Flutter / Dart / Pub
+# ---------------------------------------
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# ---------------------------------------
+# Sensitive Files (DO NOT COMMIT)
+# ---------------------------------------
+.env
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+
+# Firebase / Google services
+google-services.json
+GoogleService-Info.plist
+
+# ---------------------------------------
+# Symbolication / Obfuscation
+# ---------------------------------------
+app.*.symbols
+app.*.map.json
+
+# ---------------------------------------
+# Android Build Artifacts
+# ---------------------------------------
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Gradle
+.gradle/
+*/build/
+
+# ---------------------------------------
+# iOS Build Artifacts
+# ---------------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+Runner.xcworkspace/
+
+# ---------------------------------------
+# Web Build
+# ---------------------------------------
+web/.dart_tool/
+web/build/
+
+# ---------------------------------------
+# Windows / MacOS / Linux Build
+# ---------------------------------------
+windows/runner/Release/
+windows/runner/Debug/
+macos/Flutter/ephemeral/
+linux/ephemeral/
